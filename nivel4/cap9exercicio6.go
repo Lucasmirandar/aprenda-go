@@ -19,4 +19,8 @@ func main() {
 		"Rondônia", "Roraima", "Santa Catarina", "São Paulo", "Sergipe", "Tocantins",
 	}
 	fmt.Println(len(estados), cap(estados))
+
+	for x := 0; x < len(estados); x++ {
+		fmt.Println(estados[x])
+	}
 }
