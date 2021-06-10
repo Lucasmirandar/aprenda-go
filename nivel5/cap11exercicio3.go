@@ -16,8 +16,6 @@ package main
 
 import "fmt"
 
-//import "fmt"
-
 func main() {
 	type veiculo struct {
 		portas int
