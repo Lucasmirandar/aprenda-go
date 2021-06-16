@@ -9,10 +9,8 @@ package main
 import "fmt"
 
 func main() {
-	x := retornaInt()
-	X, s := retornaIntString()
-	fmt.Println(x)
-	fmt.Println(X, s)
+	fmt.Println(retornaInt())
+	fmt.Println(retornaIntString())
 }
 
 func retornaInt() int {
